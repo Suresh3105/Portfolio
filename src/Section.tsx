@@ -1,7 +1,7 @@
 import type React from "react";
 import "./index.css";
-import mypic from "../src/Image/Mypic.jpg";
-import resume from "../src/Image/suresh resume new1 .pdf";
+import mypic from "../public/Image/Mypic.jpg";
+import resume from "../public/Image/suresh resume new1 .pdf";
 
 type Info = { name1: string };
 
@@ -34,11 +34,11 @@ const Section: React.FC<Info> = ({ name1 }) => {
         </div>
 
         {/* Right Image Section */}
-        <div className="md:flex-1 flex justify-center">
+        <div className="md:flex-1 flex justify-center mt-10">
           <img
             src={mypic}
             alt="My Image"
-            className="w-60 h-60 sm:w-72 sm:h-72 object-cover rounded-full border-2 border-purple-500 shadow-xl"
+            className="w-60 h-60 sm:w-72 sm:h-72 object-cover mt-5 rounded-full border-2 border-purple-500 shadow-xl"
           />
         </div>
       </div>

@@ -9,7 +9,7 @@ const Education: FC = () => {
           Qualification
         </h1>
 
-        <ul className="text-white text-lg sm:text-xl space-y-4 text-center md:text-left">
+        <ul className="text-white text-lg sm:text-xl space-y-4 text-center md:text-left ml-7 md:ml-[30%]">
           <li>SDW School - SSLC: 73%</li>
           <li>St. Mary's School - HSC: 70%</li>
           <li>BIHER - UG: 75%</li>

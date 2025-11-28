@@ -1,13 +1,13 @@
 import type { FC } from "react";
 import "./index.css";
-import Ecommerce from "./Image/Ecommerce.png";
-import Insta from "./Image/Screenshot (13).png";
-import College from "./Image/CollegeManage.png";
+import Ecommerce from "../public/Image/Ecommerce.png";
+import Insta from "../public/Image/Screenshot (13).png";
+import College from "../public/Image/CollegeManage.png";
 
 const Project: FC = () => {
   return (
-    <section className="snap-start py-10 bg-gray-900">
-      <h1 className="text-white mt-20 lg:mt-40 text-4xl font-bold underline decoration-amber-600 flex justify-center mb-8">
+    <section className="snap-start bg-gray-900">
+      <h1 className="text-white mt-5 lg:mt-40 text-4xl font-bold underline decoration-amber-600 flex justify-center mb-8">
         Projects
       </h1>
 

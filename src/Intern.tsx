@@ -1,6 +1,6 @@
 import type { FC } from "react";
 import "./index.css";
-import computer from "./Image/computer.jpg";
+import computer from "../public/Image/computer.jpg";
 const Intern: FC = () => {
   return (
     <section className="max-h-screen px-4 sm:px-6 lg:px-10 py-10">
