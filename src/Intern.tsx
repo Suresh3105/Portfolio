@@ -49,9 +49,9 @@ const Intern: FC = () => {
         </div>
 
         {/* Right Image */}
-        <div className="flex-1 flex justify-center md:justify-end">
+        <div className="md:flex-1 md:flex md:justify-end hidden">
           <img
-            className="w-full max-w-md sm:max-w-lg md:max-w-xl h-60 sm:h-80 md:h-96 rounded-lg shadow-lg object-cover"
+            className="w-full max-w-md sm:max-w-lg md:max-w-xl h-60 sm:h-96 md:h-96 rounded-lg shadow-lg object-cover"
             src={computer}
             alt="Front End Development Internship"
           />
